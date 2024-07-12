@@ -1,0 +1,62 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+body {
+  font-family: 'Lora', serif;
+  font-size: 1.1rem;
+}
+
+.hero {
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  margin-bottom: 0;
+  background-image: url('heroimage.png');
+  background-size: cover;
+  animation: background-float 20s infinite alternate ease-in-out;
+}
+
+.hero img {
+  object-fit: cover;
+  height: 100%;
+}
+
+nav{
+  background-color: #b57f50
+}
+
+.navbar-custom .navbar-nav .nav-link{
+  color: #e2f1af;
+} 
+footer{
+  background-color: #b57f50;
+  font-size: 15px;
+}
+
+#about ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+#about ul li {
+  margin-bottom: 10px;
+}
+
+/* Custom styles for section headings */
+.section-heading {
+  color: #b57f50; /* Dark grey color */
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.modal-footer .btn-danger {
+  font-family: 'Arial', sans-serif;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
