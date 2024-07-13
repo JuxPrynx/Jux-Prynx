@@ -9,7 +9,6 @@ body {
 }
 
 .hero {
-
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -18,7 +17,6 @@ body {
   margin-bottom: 0;
   background-image: url('heroimage.png');
   background-size: cover;
-  animation: background-float 20s infinite alternate ease-in-out;
 }
 
 .hero img {
